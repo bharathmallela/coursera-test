@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    font-family: "Lucida Console", Courier, monospace, sans-serif;
+} 
+
+body {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #5a5858;
+    font-family: 'Oxygen', sans-serif;
+  }
+.container{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+   
+ 
+}
+header{
+    background-color: rgba(68, 7, 7, 0.603);
+}
+h1 { 
+    font-family:  serif;
+    color: #111a0c;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;}
+
+
+
+#header-nav .container {
+    height: fit-content;
+    background-color: rgba(32, 206, 41, 0.384);
+    
+    
+}
+
+h3 {
+     background-color: rgba(119, 8, 8, 0.205);
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2{text-align: center;
+    border: 0.5px solid;
+   
+   position: relative;
+   color: rgb(158, 158, 158);
+   background-color: rgb(7, 10, 10);
+
+}
+
+
+
+#card1 p{
+   
+   
+    background-color: rgba(238, 135, 135, 0.548);
+    border: .5px solid;
+    
+   
+ 
+    
+}
+#card2 p{
+   
+   
+    background-color: rgba(241, 63, 63, 0.541);
+    border: .5px solid;
+    
+   
+    
+    
+}
+#card3 p{
+    
+   
+    background-color: rgba(255, 10, 10, 0.596);
+    border: .5px solid;
+   
+}
+.clearfix{
+    clear: left;
+}
+
+p{
+    padding: 10px;
+}
+
+@media screen and (max-width: 991px){
+
+.card1{
+    width: 45%;
+}
+
+.card2{
+    width: 45%;
+}
+.card3{
+    width: 92%;
+}
+}
+
+
+@media screen and (max-width: 767px){
+
+.card1{
+    width: 90%;
+}
+
+.card2{
+    width: 90%;
+}
+.card3{
+    width: 90%;
+}
+p{
+        padding: 20px;
+}
+}
+
+
