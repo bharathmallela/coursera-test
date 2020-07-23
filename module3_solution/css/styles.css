@@ -109,3 +109,9 @@ p{
 .navbar-default .navbar-toggle {
     border-color: #ff0c0c;
 }
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
