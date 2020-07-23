@@ -35,37 +35,35 @@ right: -65%
 
 
 
-.card1{
-    width: 30%;
-    height:250px;
+#card1{
+  
     background-color: rgba(238, 135, 135, 0.548);
     border: .5px solid;
     margin: 10px;
     box-sizing: border-box;
     float: left;
-    text-align: center;
+   ;
    
  
     
 }
-.card2{
-    width: 30%;
-    height: 250px;
+#card2{
+   
     background-color: rgba(241, 63, 63, 0.541);
     border: .5px solid;
     margin: 10px;
     box-sizing: border-box;
-    float: left;
+   
     
     
-}.card3{
-    width: 30%;
-    height: 250px;
+}#card3{
+    
+   
     background-color: rgba(255, 10, 10, 0.596);
     border: .5px solid;
     margin: 10px;
     box-sizing: border-box;
-    float: left;
+  
     
     
 }
